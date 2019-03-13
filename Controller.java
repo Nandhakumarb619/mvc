@@ -20,7 +20,7 @@ public class Controller extends HttpServlet
 	{
 		String username=request.getParameter("username");
 		String password=request.getParameter("password");
-		check.aunthetication loginObj=new check.aunthetication();
+		check.aunthentication loginObj=new check.aunthentication();
 		loginObj.setUsername(username);
 		loginObj.setPassword(password);
 		if(loginObj.checkLogin())
