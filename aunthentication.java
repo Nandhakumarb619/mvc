@@ -1,6 +1,6 @@
 package check;
 
-public class aunthetication  
+public class aunthentication  
 {
 	String username;
 	String password;
